@@ -1,0 +1,147 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+* {
+    Margin: 0;
+    Padding: 0;
+ }
+
+Body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    Height: 100vh;
+    Box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--fonte-principal);
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.container__bloco{
+    margin: 0 3.375rem;
+}
+
+.container__titulo{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1.375rem 0 3.25rem 0;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.segundo{
+    background-color: transparent;
+    border: 0.125rem solid var(--branco-principal);
+}
+
+.container__aviso{
+    color: var(--cinza-secundario);
+    font-size: 0.75rem;
+}
+
+.secundario{
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 1rem;
+
+}
+
+.container__imagem2{
+    margin: 0 10.3rem 0 10.3rem;
+}
+
+.container__bloco2{
+    margin: 0 7.5rem;
+    padding: 0.5rem;
+    font-weight: 400;
+}
+
+.container__titulo2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container__descricao{
+    color: var(--cinza-secundario);
+    padding-bottom: 1rem;
+}
+
+.botao__secundario{
+    display: inline-block;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+    color: var(--branco-principal);
+    padding: 2.5rem;
+    font-weight: 700;
+}
+
+.dispositivos__listas{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 9.06rem;
+}
+
+.rodape{
+    text-align: center;
+    padding-bottom: 6.2rem;
+}
+
+.rodape__logo{
+    padding: 2.55rem;
+}
+
+.rodape__listas{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1.5rem 9.875rem;
+}
+ .rodape__link{
+    text-decoration: none;
+    color: var(--branco-principal);
+ }
+
+ .rodape__texto{
+    font-size: 0.875rem;
+    color: var(--cinza-secundario);
+    padding: 1rem;
+ }
